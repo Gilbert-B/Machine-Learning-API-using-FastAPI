@@ -28,8 +28,6 @@ There is  a minimal API demo with [FastAPI](https://fastapi.tiangolo.com/), this
 - Process the predictions obtained and return them as the API's response ot the input request.
 
 
-## Rubrics
-
 
 
 ## Setup
