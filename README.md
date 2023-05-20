@@ -9,21 +9,9 @@ Develop a Machine Learning API (Application Programming Interface) using FastAPI
 
 In this project, Icreate an API that might be requested to interact with a ML model. This enables individuals and organizations keep their model architecture secret or to make their model available to users already having an API. By creating an API, and deploying it, a model can receive request using the internet protocol as presented by the illustration below.
 
-## Importance of Project  
-The dataset used contains a list of patients in a hospital and their attributes and whether the patient is positive for Sepssis or not. 
-
-Sepsis is a severe and potentially life-threatening condition that occurs when the body's response to an infection triggers widespread inflammation. It is often referred to as blood poisoning.
-
-Sepsis can develop when the immune system releases chemicals into the bloodstream to combat an infection but instead causes widespread inflammation throughout the body. 
-The aim of this project is to explore the various factors that can cause sepsis in order to predict the occurence of sepsis.
-
-
-Predicting sepsis is important because early recognition and intervention can significantly improve patient outcomes. Sepsis can progress rapidly and become life-threatening within a short period. By identifying patients who are at risk of developing sepsis, healthcare providers can initiate timely treatment and interventions to prevent the condition from worsening.
-
 ![API illustration](https://lh3.googleusercontent.com/-qVJ4ZsbjsmH6CnYbojsAR4ImyHV8yxsFVinunH-pX7VCapGvufcXiPak6YVKIrj9ZdiCHwK5UFtQW8yuU5t83pz6fbqN1F2p74OWuT5dObCPnTBuCYr_P1mUg8arbP0WuEt7j_A)
 
 **Source** : *The benefits of Machine Learning APIs - UbiOps*
-
 
 ## Description
 
@@ -37,6 +25,17 @@ There is  a minimal API demo with [FastAPI](https://fastapi.tiangolo.com/), this
 - Apply the necessary processing;
 - Submit the processed data to the ML model to make the predictions;
 - Process the predictions obtained and return them as the API's response ot the input request.
+
+## Importance of Project  
+The dataset used contains a list of patients in a hospital and their attributes and whether the patient is positive for Sepssis or not. 
+
+Sepsis is a severe and potentially life-threatening condition that occurs when the body's response to an infection triggers widespread inflammation. It is often referred to as blood poisoning.
+
+Sepsis can develop when the immune system releases chemicals into the bloodstream to combat an infection but instead causes widespread inflammation throughout the body. 
+The aim of this project is to explore the various factors that can cause sepsis in order to predict the occurence of sepsis.
+
+
+Predicting sepsis is important because early recognition and intervention can significantly improve patient outcomes. Sepsis can progress rapidly and become life-threatening within a short period. By identifying patients who are at risk of developing sepsis, healthcare providers can initiate timely treatment and interventions to prevent the condition from worsening.
 
 
 # Dataset Description -
