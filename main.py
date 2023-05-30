@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+import fastapi
 from pydantic import BaseModel
 import pickle
 import pandas as pd
