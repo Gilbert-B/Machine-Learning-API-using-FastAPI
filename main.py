@@ -1,4 +1,4 @@
-import fastapi
+from fastapi import FastAPI
 from pydantic import BaseModel
 import pickle
 import pandas as pd
@@ -15,7 +15,7 @@ Like a  notebook where we write down what our program is doing at different poin
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-""" Creating the FAstAPI Instance. i.e. foundation for our API, 
+""" Creating the FapstAPI Instance. i.e. foundation for our API, 
 which will be the main part of our project"""
 
 app = FastAPI(title="API")
