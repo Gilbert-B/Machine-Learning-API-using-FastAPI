@@ -17,7 +17,7 @@ app = FastAPI(title="API")
 
 """We load a machine learning model and a scaler that help us make predictions based on data."""
 model = joblib.load('gbc.pkl',mmap_mode='r')
-scaler = joblib.load('scaler.pkl')
+scaler = joblib.load('scaler.pkl',mmap_mode='r')
 
 """We define a function that will make predictions using our model and scaler."""
 def predict(df, endpoint='simple'):
