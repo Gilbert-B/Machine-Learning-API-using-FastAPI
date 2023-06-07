@@ -100,9 +100,9 @@ The both long command-lines have a same structure, they pipe multiple commands u
 
 - Run the demo apps (being at the repository root):
         
-- FastAPI:
-    <!-- Sepsis prediction
-                          uvicorn.run("main:app", reload=True) -->
+- FastAPI Sepsis predictioN: 
+
+        uvicorn.run("main:app", reload=True)
 
 
   - Go to your browser at the following address, to explore the api's documentation :
