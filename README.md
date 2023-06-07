@@ -101,14 +101,10 @@ The both long command-lines have a same structure, they pipe multiple commands u
 - Run the demo apps (being at the repository root):
         
   FastAPI:
-    
-    - Demo
 
-          uvicorn src.demo_01.api:app --reload 
+    <!-- - Sepsis prediction
 
-    <!-- - Salary prediction
-
-          uvicorn src.salary.api:app --reload  -->
+           uvicorn.run("main:app", reload=True) -->
 
 
   - Go to your browser at the following address, to explore the api's documentation :
