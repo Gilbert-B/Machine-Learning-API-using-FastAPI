@@ -100,7 +100,7 @@ The both long command-lines have a same structure, they pipe multiple commands u
 
 - Run the demo apps (being at the repository root):
         
-- FastAPI Sepsis predictioN: 
+- FastAPI Sepsis prediction: 
 
         uvicorn.run("main:app", reload=True)
 
